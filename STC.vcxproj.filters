@@ -28,9 +28,13 @@
   <ItemGroup>
     <Text Include="Painting.txt" />
     <Text Include="inputTurnOverGame.txt" />
+    <Text Include="inputClearingRobot.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TurnOverGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearingRobot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

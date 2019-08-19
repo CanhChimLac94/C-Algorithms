@@ -128,10 +128,12 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="inputClearingRobot.txt" />
     <Text Include="inputTurnOverGame.txt" />
     <Text Include="Painting.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ClearingRobot.h" />
     <ClInclude Include="TurnOverGame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
